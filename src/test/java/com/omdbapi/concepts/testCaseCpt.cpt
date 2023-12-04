@@ -1,0 +1,40 @@
+Created by ASUS on 3.12.2023
+
+This is a concept file with following syntax for each concept.
+
+# Send get request for list all Batman movies and check status code is <statusCode>
+* Send get request to the all Batman movies list
+* Verify status code is <statusCode>
+
+# Get The Batman movie <ImdbIDValue> and verify if it is <imdbId> and save it
+* Verify <imdbId> value for <ImdbIDValue> parameter from response
+* Save movieImdbID parameter to search Rotten Tomatoes rating value
+
+# Send get request for The Batman movie with ImdbID and check status code is <statusCode>
+* Send get request for The Batman ImdbID
+* Verify status code is <statusCode>
+
+
+# Get the Rotten Tomatoes <ratingKey> and verify if it is <ratingValue> and check status code is <statusCode>
+* Verify <ratingValue> value for <ratingKey> parameter from response
+* Get rating value of Rotten Tomatoes
+* Verify status code is <statusCode>
+
+
+# Send Get Reguest for two movies <movie1> and <movie2>
+* Send GET request for <movie1>
+* Verify status code is "200"
+* Send GET request for <movie2>
+* Verify status code is "200"
+
+# Get IMDB Rating Value of two movies <movie1> and <movie2>
+* Get Imdb Rating of <movie1>
+* Verify status code is "200"
+* Get Imdb Rating of <movie2>
+* Verify status code is "200"
+
+# Get Year Value of two movies <movie1> and <movie2>
+* Get Year of <movie1>
+* Verify status code is "200"
+* Get Year of <movie2>
+* Verify status code is "200"
